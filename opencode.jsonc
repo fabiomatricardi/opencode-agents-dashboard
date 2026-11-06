@@ -1,0 +1,15 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "plugins": [
+    {
+      "package": "./plugins/agents-dashboard",
+      "options": {
+        // Port used by the dashboard web server (falls back to AGENTS_DASHBOARD_PORT, then 4590).
+        // If the port is busy, the next free port is picked automatically.
+        "port": 4090,
+        // Open the dashboard in the browser when the server starts (AGENTS_DASHBOARD_AUTO_OPEN=false overrides).
+        "autoOpen": true
+      }
+    }
+  ]
+}

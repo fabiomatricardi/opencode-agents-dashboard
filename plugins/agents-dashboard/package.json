@@ -1,0 +1,38 @@
+{
+  "name": "opencode-agents-dashboard",
+  "version": "0.2.2",
+  "description": "Live web dashboard that shows what OpenCode agents are doing: state messages, tool calls, subagents, tokens and errors.",
+  "homepage": "https://github.com/fabiomatricardi/opencode-agents-dashboard#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabiomatricardi/opencode-agents-dashboard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fabiomatricardi/opencode-agents-dashboard/issues"
+  },
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "files": [
+    "src",
+    "public",
+    "scripts",
+    "README.md"
+  ],
+  "scripts": {
+    "demo": "node scripts/demo.ts",
+    "harness": "node scripts/harness.ts",
+    "test": "node scripts/harness.ts"
+  },
+  "dependencies": {
+    "@opencode/plugin": "latest"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "dashboard",
+    "agents"
+  ],
+  "license": "MIT"
+}
