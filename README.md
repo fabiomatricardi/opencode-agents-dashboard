@@ -21,7 +21,7 @@ Built as an OpenCode **V2 plugin**. It observes the server's public event stream
 
 ## Screenshot
 
-![opencode-agents-dashboard — live view of a working session](docs/screenshot.png)
+![opencode-agents-dashboard — live view of a working session](https://github.com/fabiomatricardi/opencode-agents-dashboard/raw/main/plugins/agents-dashboard/docs/screenshot.png))
 
 The UI follows a dark + orange "trading dashboard" aesthetic (cards, big numbers, one hot accent).
 
